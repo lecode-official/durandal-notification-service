@@ -1,0 +1,32 @@
+{
+  "name": "typescript-notification-service",
+  "displayName": "TypeScript Notification Service",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A simple notification library written in TypeScript, which can be used to display notifications to the user.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lecode-official/typescript-notification-service.git"
+  },
+  "keywords": [
+    "Notificaton",
+    "Toastr",
+    "TypeScript"
+  ],
+  "author": "David Neumann & Lukas Rögner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lecode-official/typescript-notification-service/issues"
+  },
+  "homepage": "https://github.com/lecode-official/typescript-notification-service#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "dts-generator": "2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-clean": "^0.3.2",
+    "gulp-typescript": "^3.0.1",
+    "run-sequence": "1.2.2",
+    "typescript": "^2.0.3"
+  }
+}
