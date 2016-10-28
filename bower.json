@@ -18,7 +18,7 @@
     "Toastr",
     "TypeScript"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -29,7 +29,7 @@
     "package.json"
   ],
   "dependencies": {
-    "typescript-globalization": "https://github.com/lecode-official/typescript-globalization.git#v0.1.0",
+    "typescript-globalization": "https://github.com/lecode-official/typescript-globalization.git#v0.1.1",
     "toastr": "2.1.3"
   }
 }
