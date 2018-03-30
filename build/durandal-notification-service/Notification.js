@@ -1,11 +1,11 @@
-///<amd-module name='Notification/Notification'/>
-define("Notification/Notification", ["require", "exports", "Notification/NotificationKind", "toastr"], function (require, exports, NotificationKind, toastr) {
+///<amd-module name='durandal-notification-service/Notification'/>
+define("durandal-notification-service/Notification", ["require", "exports", "durandal-notification-service/NotificationKind", "toastr"], function (require, exports, NotificationKind, toastr) {
     "use strict";
     // #endregion
     /**
      * Represents a notification that can be shown by the notification service.
      */
-    var Notification = (function () {
+    var Notification = /** @class */ (function () {
         // #region Constructors
         function Notification(kind, title, message) {
             // Sets the provided values

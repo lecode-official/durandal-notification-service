@@ -1,11 +1,11 @@
-///<amd-module name='Notification/NotificationService'/>
-define("Notification/NotificationService", ["require", "exports", "Notification/NotificationPosition", "Globalization/TimeSpan", "toastr"], function (require, exports, NotificationPosition, TimeSpan, toastr) {
+///<amd-module name='durandal-notification-service/NotificationService'/>
+define("durandal-notification-service/NotificationService", ["require", "exports", "durandal-notification-service/NotificationPosition", "durandal-globalization/TimeSpan", "toastr"], function (require, exports, NotificationPosition, TimeSpan, toastr) {
     "use strict";
     // #endregion
     /**
      * Represents a service that can be used to show notifications and queue them.
      */
-    var NotificationService = (function () {
+    var NotificationService = /** @class */ (function () {
         function NotificationService() {
         }
         Object.defineProperty(NotificationService, "isCloseButtonEnabled", {

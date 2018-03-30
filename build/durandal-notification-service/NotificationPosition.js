@@ -1,5 +1,5 @@
-///<amd-module name='Notification/NotificationPosition'/>
-define("Notification/NotificationPosition", ["require", "exports"], function (require, exports) {
+///<amd-module name='durandal-notification-service/NotificationPosition'/>
+define("durandal-notification-service/NotificationPosition", ["require", "exports"], function (require, exports) {
     "use strict";
     /**
      * Represents the position of a notification.

@@ -1,12 +1,11 @@
 {
-  "name": "typescript-notification-service",
-  "displayName": "TypeScript Notification Service",
-  "private": true,
-  "version": "0.1.1",
+  "name": "durandal-notification-service",
+  "displayName": "Durandal Notification Service",
+  "version": "0.1.2",
   "description": "A simple notification library written in TypeScript, which can be used to display notifications to the user.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lecode-official/typescript-notification-service.git"
+    "url": "git+https://github.com/lecode-official/durandal-notification-service.git"
   },
   "keywords": [
     "Notificaton",
@@ -16,17 +15,22 @@
   "author": "David Neumann & Lukas Rögner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lecode-official/typescript-notification-service/issues"
+    "url": "https://github.com/lecode-official/durandal-notification-service/issues"
   },
-  "homepage": "https://github.com/lecode-official/typescript-notification-service#readme",
+  "homepage": "https://github.com/lecode-official/durandal-notification-service#readme",
+  "dependencies": {
+    "durandal-globalization": "https://github.com/lecode-official/durandal-globalization.git#v0.1.5",
+    "toastr": "2.1.4",
+    "@types/toastr": "2.1.35"
+  },
   "devDependencies": {
-    "bower": "^1.7.9",
     "dts-generator": "2.0.0",
     "gulp": "^3.9.1",
-    "gulp-bower": "0.0.13",
     "gulp-clean": "^0.3.2",
     "gulp-typescript": "^3.0.1",
     "run-sequence": "1.2.2",
     "typescript": "^2.0.3"
-  }
+  },
+  "types": "./build/durandal-notification-service.d.ts",
+  "typings": "./build/durandal-notification-service.d.ts"
 }

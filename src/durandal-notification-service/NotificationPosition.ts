@@ -1,5 +1,5 @@
 ﻿
-///<amd-module name='Notification/NotificationPosition'/>
+///<amd-module name='durandal-notification-service/NotificationPosition'/>
 
 /**
  * Represents the position of a notification.

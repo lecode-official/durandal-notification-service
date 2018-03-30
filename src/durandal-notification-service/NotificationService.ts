@@ -1,12 +1,12 @@
 ﻿
-///<amd-module name='Notification/NotificationService'/>
+///<amd-module name='durandal-notification-service/NotificationService'/>
 
 // #region Import Directives
 
-/// <reference path="../Typings/References.d.ts" />
+/// <reference types="durandal-globalization" />
 
-import NotificationPosition = require("Notification/NotificationPosition");
-import TimeSpan = require("Globalization/TimeSpan");
+import NotificationPosition = require("durandal-notification-service/NotificationPosition");
+import TimeSpan = require("durandal-globalization/TimeSpan");
 import toastr = require("toastr");
 
 // #endregion

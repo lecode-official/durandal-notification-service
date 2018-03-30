@@ -1,5 +1,5 @@
 ﻿
-///<amd-module name='Notification/NotificationKind'/>
+///<amd-module name='durandal-notification-service/NotificationKind'/>
 
 /**
  * Represents the type of a notification.

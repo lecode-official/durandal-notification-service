@@ -1,10 +1,7 @@
-
-/// <reference path="../../bower_components/DefinitelyTyped/toastr/toastr.d.ts" />
-/// <reference path="../../bower_components/typescript-globalization/build/typescript-globalization.d.ts" />
-declare module 'Notification/Notification' {
-	/// <reference path="../Typings/References.d.ts" />
-	import NotificationKind = require("Notification/NotificationKind");
-	import TimeSpan = require("Globalization/TimeSpan"); class Notification {
+declare module 'durandal-notification-service/Notification' {
+	/// <reference types="durandal-globalization" />
+	import NotificationKind = require("durandal-notification-service/NotificationKind");
+	import TimeSpan = require("durandal-globalization/TimeSpan"); class Notification {
 	    constructor(kind: NotificationKind, title: string, message: string);
 	    /**
 	     * Contains the toast that has been created by toastr.
@@ -42,7 +39,7 @@ declare module 'Notification/Notification' {
 	export = Notification;
 
 }
-declare module 'Notification/NotificationKind' {
+declare module 'durandal-notification-service/NotificationKind' {
 	 enum NotificationKind {
 	    /**
 	     * A success notification.
@@ -64,7 +61,7 @@ declare module 'Notification/NotificationKind' {
 	export = NotificationKind;
 
 }
-declare module 'Notification/NotificationPosition' {
+declare module 'durandal-notification-service/NotificationPosition' {
 	 enum NotificationPosition {
 	    TopRight = 0,
 	    BottomRight = 1,
@@ -78,10 +75,10 @@ declare module 'Notification/NotificationPosition' {
 	export = NotificationPosition;
 
 }
-declare module 'Notification/NotificationService' {
-	/// <reference path="../Typings/References.d.ts" />
-	import NotificationPosition = require("Notification/NotificationPosition");
-	import TimeSpan = require("Globalization/TimeSpan"); class NotificationService {
+declare module 'durandal-notification-service/NotificationService' {
+	/// <reference types="durandal-globalization" />
+	import NotificationPosition = require("durandal-notification-service/NotificationPosition");
+	import TimeSpan = require("durandal-globalization/TimeSpan"); class NotificationService {
 	    /**
 	     * Gets a value that determines whether the close button is shown.
 	     */

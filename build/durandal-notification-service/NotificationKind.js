@@ -1,5 +1,5 @@
-///<amd-module name='Notification/NotificationKind'/>
-define("Notification/NotificationKind", ["require", "exports"], function (require, exports) {
+///<amd-module name='durandal-notification-service/NotificationKind'/>
+define("durandal-notification-service/NotificationKind", ["require", "exports"], function (require, exports) {
     "use strict";
     /**
      * Represents the type of a notification.
